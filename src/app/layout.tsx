@@ -1,5 +1,7 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Playfair_Display, Cormorant } from "next/font/google";
+import ServiceWorkerRegistration from "@/components/ServiceWorkerRegistration";
+import InstallPrompt from "@/components/InstallPrompt";
 import "./globals.css";
 
 const playfair = Playfair_Display({
@@ -18,6 +20,19 @@ export const metadata: Metadata = {
   title: "Le Sur Mesure — Bespoke Tailoring, Casablanca",
   description:
     "Luxury custom tailoring for men in Casablanca, Morocco. Handcrafted suits, shirts, and garments made to your exact measurements.",
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "black-translucent",
+    title: "Le Sur Mesure",
+  },
+  icons: {
+    icon: "/icon-192.png",
+    apple: "/icon-512.png",
+  },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#c9a96e",
 };
 
 export default function RootLayout({
@@ -31,6 +46,8 @@ export default function RootLayout({
         className={`${playfair.variable} ${cormorant.variable} antialiased`}
       >
         {children}
+        <ServiceWorkerRegistration />
+        <InstallPrompt />
       </body>
     </html>
   );
