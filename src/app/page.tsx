@@ -4,7 +4,7 @@ export default function Home() {
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-8 py-6 md:px-16 bg-background/80 backdrop-blur-md">
         <div className="font-[family-name:var(--font-playfair)] text-lg tracking-[0.3em] uppercase text-gold">
-          Le Sur Mesure
+          LESURMESURE
         </div>
         <div className="hidden md:flex items-center gap-10 font-[family-name:var(--font-cormorant)] text-sm tracking-[0.2em] uppercase text-cream-muted">
           <a href="#services" className="hover:text-gold transition-colors duration-300">
@@ -170,7 +170,7 @@ export default function Home() {
           </p>
 
           <a
-            href="https://wa.me/212600000000"
+            href="https://wa.me/21263980310"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-gold inline-flex items-center gap-3 px-12 py-5 bg-gold text-background font-[family-name:var(--font-cormorant)] text-sm tracking-[0.25em] uppercase font-semibold hover:bg-gold-light transition-colors duration-300"
@@ -192,10 +192,10 @@ export default function Home() {
       <footer className="border-t border-gold/10 py-12 px-6 md:px-16">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="font-[family-name:var(--font-playfair)] text-sm tracking-[0.3em] uppercase text-gold/60">
-            Le Sur Mesure
+            LESURMESURE
           </div>
           <p className="font-[family-name:var(--font-cormorant)] text-sm text-cream-muted/50 tracking-wider">
-            &copy; 2026 Le Sur Mesure — Casablanca, Maroc
+            &copy; 2026 LESURMESURE — Casablanca, Maroc
           </p>
         </div>
       </footer>

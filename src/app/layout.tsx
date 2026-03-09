@@ -17,13 +17,13 @@ const cormorant = Cormorant({
 });
 
 export const metadata: Metadata = {
-  title: "Le Sur Mesure — Bespoke Tailoring, Casablanca",
+  title: "LESURMESURE — Bespoke Tailoring, Casablanca",
   description:
     "Luxury custom tailoring for men in Casablanca, Morocco. Handcrafted suits, shirts, and garments made to your exact measurements.",
   appleWebApp: {
     capable: true,
     statusBarStyle: "black-translucent",
-    title: "Le Sur Mesure",
+    title: "LESURMESURE",
   },
   icons: {
     icon: "/icon-192.png",

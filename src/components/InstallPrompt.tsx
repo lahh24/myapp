@@ -50,7 +50,7 @@ export default function InstallPrompt() {
               Installer l&apos;application
             </h3>
             <p className="font-[family-name:var(--font-cormorant)] text-sm text-cream-muted mt-1">
-              Accédez à Le Sur Mesure directement depuis votre écran d&apos;accueil.
+              Accédez à LESURMESURE directement depuis votre écran d&apos;accueil.
             </p>
           </div>
           <button

@@ -2,8 +2,8 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Le Sur Mesure — Bespoke Tailoring",
-    short_name: "Le Sur Mesure",
+    name: "LESURMESURE — Bespoke Tailoring",
+    short_name: "LESURMESURE",
     description:
       "Luxury custom tailoring for men in Casablanca, Morocco. Handcrafted suits, shirts, and garments made to your exact measurements.",
     start_url: "/",
