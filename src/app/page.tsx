@@ -170,7 +170,7 @@ export default function Home() {
           </p>
 
           <a
-            href="https://wa.me/21263980310"
+            href="https://wa.me/212639890310"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-gold inline-flex items-center gap-3 px-12 py-5 bg-gold text-background font-[family-name:var(--font-cormorant)] text-sm tracking-[0.25em] uppercase font-semibold hover:bg-gold-light transition-colors duration-300"
